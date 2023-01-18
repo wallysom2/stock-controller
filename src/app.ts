@@ -1,2 +1,8 @@
 import express from 'express';
-import { Pool } from 'pg';
+
+
+const app = express();
+
+app.listen(4000, () => {
+    console.log('API rodando na porta 3000');
+});
